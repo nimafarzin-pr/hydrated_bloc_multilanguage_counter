@@ -1,0 +1,31 @@
+name: todo_bloc
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.3.8
+
+dependencies:
+  bloc: ^8.1.1
+  bloc_test: ^9.1.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  hydrated_bloc: ^9.1.0
+  intl: ^0.17.0
+  path_provider: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0+1
+
+flutter:
+  uses-material-design: true
+  generate: true
